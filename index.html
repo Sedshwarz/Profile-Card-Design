@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <div class="wrap1">
+      <div class="pp"></div>
+
+      <div class="info">
+        <span id="header">Lily Flower</span>
+        <span id="job">Web Designer ‧ London</span>
+        <div class="numbers">
+          <span><i class="fas fa-user"></i> 13.4K</span>
+          <span><i class="far fa-thumbs-up"></i> 74.4K</span>
+        </div>
+        <button id="follow" data-state="no" onclick="follow(this)">Follow</button>
+      </div>
+    </div>
+
+
+
+
+    <div class="wrap2">
+      <div class="pp"></div>
+
+      <div class="info">
+        <div class="person">
+          <span id="header">Lily Flower</span>
+          <span id="job">Web Designer ‧ London</span>
+        </div>
+
+        <button id="following" data-state="yes" onclick="follow(this)">Following</button>
+        <button id="message"><i class="far fa-envelope"></i> Message</button>
+      </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
